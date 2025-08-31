@@ -110,4 +110,4 @@ def main(page: ft.Page):
     # 🟢 Comenzar en pantalla de login
     mostrar_login()
 
-ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+ft.app(target=main, view=ft.WEB_BROWSER, port=8080)
